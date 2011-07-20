@@ -1,0 +1,7 @@
+FOO:
+    default: "foo"
+
+BAR:
+    local: "bar-local"
+    dev: "bar-dev"
+    prod: "bar-prod"

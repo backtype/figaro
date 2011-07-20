@@ -1,0 +1,16 @@
+Figaro is a simple system for managing configurations for your projects.
+
+SETUP
+
+Create a "figaro" file in your path containing:
+
+#!/bin/sh
+python PATH_TO_FIGARO/figaro.py PATH_TO_ASSETS_AND_CONFS $*
+
+USAGE
+
+1. Add configs and assets. See sample/confs
+
+2. Create FIGARO file with all project configs to include. See sample/proj
+
+3. Run "figaro $mode" where mode is the environment you want to configure.
